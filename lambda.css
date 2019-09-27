@@ -1,0 +1,149 @@
+font-family: 'Yeseva One', cursive;
+font-family: 'Gentium Book Basic', serif;
+.body{
+    font-family: 'Gentium Book Basic', serif;  
+}
+
+.firstcontainer{
+    max-width: 100%;
+    height: 750px;
+    background-image: url(/img/background.png);
+    background-size: cover;
+
+}
+.nav-item{
+    color: #ffffff;
+    padding-right: 30px;
+    padding-top: 44px;
+}
+.firstcontainer li a:hover{
+    color: #b6b6b6
+}
+.firstcontainer li a{
+    font-size: 21px;
+    font-family: 'Gentium Book Basic', serif;
+    color: #ffffff;
+
+}
+h1{
+    color: #ffffff;
+    font-family: 'Yeseva One', serif;
+     font-size: 90px;
+}
+.btn{
+    background-color: transparent;
+    color: #ffffff;
+}
+.container_second{
+max-width: 100%;
+height: 710px;
+background-image: url(/img/dish.png);
+background-repeat: no-repeat;
+background-size: 
+}
+h2{
+    color: #838280;
+    font-size: 36px;
+    font-family: 'Yeseva One', serif;
+}
+.third_container{
+    max-width: 100%;
+    height: 632px;
+    background-image: url(/img/leaves.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end  
+}
+.third_container p{
+    color: #ffffff;
+}
+.fourth_container{
+background-image: url(/img/pattern.png);
+background-size: cover;
+}
+.fifth_container{
+    height: 640px;
+    background-image: url(/img/meat_bg.png);
+    background-size: 100%;
+    min-width: 100%;
+    color: #ffffff;
+    display: flex;
+    padding-left: 30%;
+    align-items: center;
+    }
+    h3{
+        color: #ffffff;
+    }
+    .review_text{
+        font-size: 25px;
+        font-family: 'Gentium Book Basic', bold;
+    }
+    .sixth_container{
+        max-width: 100%;
+    display: flex;
+    background-image: url(/img/pattern.png);
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    h4, h6{
+        font-size: 36px;
+        font-family: 'Yeseva One', serif;
+        color: #c29900;
+    }
+    .price{
+        color: #c29900;
+        font-size: 21px;
+        font-family: 'Yeseva One', serif;
+    }
+    .inputs{
+        font-size: 14px;
+        color: #c29900;
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+    }
+.book{
+    background-color: #c29900;
+    color: #ffffff;
+    width: 200px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+ 
+}
+.book:hover{
+    background-color: #7c6202
+}
+footer p{
+    color: #ffffff
+}
+.footer_h{
+    font-size: 21px;
+    font-family: 'Yeseva One', serif;
+}
+.fa{
+    color: #ffffff;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.footer{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width:100%;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } 

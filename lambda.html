@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="/font-awesome/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="/jquery/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+        $("a[href^='#']").click(function(){
+                var _href = $(this).attr("href");
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                return false;
+        });
+});
+</script>
+        <link rel="stylesheet" href="lambda.css">
+    <title>Lambda</title>
+</head>
+<body>
+<div class="firstcontainer" style="">
+  <div style="display: flex; justify-content: space-between">
+        <a class="navbar-brand"  href="#"><img src="/img/logo.png" alt="" style="padding-left: 125px;"></a>
+        <nav class="navbar navbar-expand-lg " id="nav_cont" style="padding-right: 100px;">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link " href="#">
+                   Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#ingredients">Ingredients</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link " href="#menu">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link " href="#reviews">Reviews</a>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="#reservations">Reservations</a>
+                              </li>
+              </ul>
+            </nav>
+          </div>
+            <div  class="text-center" style="padding-top: 15%">
+              <h1>the right ingredients <br>
+              for the right food
+              </h1>
+              <img src="/img/decoration.png" alt="">
+              <div style="padding-top: 30px;">
+              <button type="button" class="btn btn-light btn-lg outline mr-4">BOOK A TABLE</button>
+              <button type="button" class="btn btn-light btn-lg outline">SEE THE MENU</button>
+            </div>
+            </div>
+    </div>
+    <div class="container_second" style="display: flex; padding-left: 20%; padding-top: 10%;" id="about"> 
+      <div class="text-center">
+      <h2>Just the right food</h2>
+      <img src="/img/Divider.png" alt="">
+      <p>If you’ve been to one of our restaurants, you’ve seen – and <br>
+       tasted – what keeps our customers coming back for more. <br>
+       Perfect materials and freshly baked food, delicious Lambda <br>
+        cakes,  muffins, and gourmet coffees make us hard to resist! <br>
+       Stop in today and check us out!</p>
+    <img src="/img/cook.png" alt="">
+  </div>
+    </div>
+    <div class="third_container">
+      <div class="text-center" style="padding-top: 120px; padding-right: 210px;" id="ingredients">
+      <h3>Fine ingredients</h3>
+      <img style="padding-top: 10px;" src="/img/decoration.png" alt="">
+      <p style="padding-top: 30px;">If you’ve been to one of our restaurants, you’ve seen – and <br>
+       tasted – what keeps our customers coming back for more. <br>
+        Perfect materials and freshly baked food, delicious Lambda <br>
+         cakes,  muffins, and gourmet coffees make us hard to resist! <br>
+          Stop in today and check us out!</p>
+          <img src="/img/ingridients.png" alt="" style="padding-top: 50px;">
+        </div>
+    </div>
+    <div class="fourth_container text-center row" style=" padding-top: 50px; padding-bottom: 50px;" id="menu">
+      <div class="col-6"> 
+      <h4>Appetisers</h4>
+      <img src="/img/Divider.png" alt="">
+      <p class="price">Tzatsiki<span style="display:inline-block; margin-left: 240px;">$3.99</span></p>
+      <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+      <p class="price">Aubergine_Salad<span style="display:inline-block; margin-left: 160px;">$5.50</span></p>
+      <p>.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+      <p class="price">Aubergine_Salad<span style="display:inline-block; margin-left: 160px;">$5.25</span></p>
+      <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+    <h4>Salads</h4>
+    <img src="/img/Divider.png" alt="">
+    <p class="price">Olive_Special<span style="display:inline-block; margin-left: 200px;">$5.99</span></p>
+    <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+    <p class="price">Greek_Salad<span style="display:inline-block; margin-left: 210px;">$5.50</span> </p>
+    <p>.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+    <p class="price">Gusto_Salad<span style="display:inline-block; margin-left: 210px;">$5.25</span></p>
+    <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+    </div>
+  <div class="col-6">
+    <h4>Starters</h4>
+    <img src="/img/Divider.png" alt="">
+    <p class="price">Haloumi<span style="display:inline-block; margin-left: 240px;">$3.99</span></p>
+    <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+    <p class="price">Spinach_Pie <span style="display:inline-block; margin-left: 200px;">$5.50</span></p>
+    <p>.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+  <h4>Main Dishes</h4>
+  <img src="/img/Divider.png" alt="">
+  <p class="price">Cornish_Mackerel<span style="display:inline-block; margin-left: 150px;">$5.99</span></p>
+  <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+  <p class="price">Roast_Lamb<span style="display:inline-block; margin-left: 200px;">$5.50</span></p>
+  <p>.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+  <p class="price">Fried_Chicken<span style="display:inline-block; margin-left: 190px;">$5.25</span></p>
+  <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+  <p class="price">Pastitsio<span style="display:inline-block; margin-left: 230px;"> $5.99</span></p>
+  <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
+  </div>
+  </div>
+  <div class="fifth_container">
+    <div class="" style="margin-left: 50px; text-align: center" id="reviews">
+  <h5 >Guest Reviews</h5>
+  <img class="review_text" src="/img/decoration.png" alt="">
+  <p>If you’ve been to one of our restaurants, you’ve seen <br>
+   – and tasted – what keeps our customers coming back for <br>
+    more. Perfect materials and freshly baked food, <br>
+     delicious Lambda cakes,  muffins, and gourmet coffees <br>
+      make us hard to resist! Stop in today and check us out!</p>
+  <p>- food inc, New York</p>
+</div>
+  </div>
+  <div class="sixth_container" id="reservations">
+    <div style="padding-left: 150px; padding-right: 100px;">
+  <img src="/img/food.png" alt="">
+</div>
+  <div class="text-center">
+  <h6>Just the right food</h6>
+  <img src="/img/Divider.png" alt="">
+  <p>If you’ve been to one of our restaurants, you’ve seen – and <br>
+   tasted – what keeps our customers coming back for more. <br>
+    Perfect materials and freshly baked food. <br>
+    <br>
+    Delicious Lambda cakes,  muffins, and gourmet coffees make <br>
+     us hard to resist! Stop in today and check us out! Perfect <br>
+     materials and freshly baked food.</p>
+     <div style="display: grid; grid-template-columns: auto auto;" class="inputs">
+     <div>
+     <p>Name</p>
+     <input type="text">
+     <p>Email</p>
+     <input type="">
+    </div>
+    <div>
+     <p>Date</p>
+     <input type="text">
+     <p>Party number</p>
+     <input type="text">
+    </div>
+  </div>
+     <input type="button" style="margin-top: 30px;" value="Book now!" class="book">
+    </div>
+  </div>
+  <footer class="footer" style="background-color: #191919">
+  <div class="row">
+    <div class="col-md-4 text-center" id="ql">
+       <p  class="footer_h">About us</p>
+       <img src="/img/image.png" alt="">
+       <p>Lambda's new and expanded Chelsea location <br>
+         represents a truly authentic Greek patisserie, <br>
+         featuring breakfasts of fresh croissants and <br>
+         steaming bowls of café. <br>
+        Lamda the best restaurant in town</p>
+      </div>
+    <div class="col-md-4 footer-nav animated fadeInUp text-center">
+      <p  class="footer_h">Opening hours</p>
+      <img src="/img/image.png" alt="">
+      <p>Mon-Thu: 7:00am-8:00pm <br>
+        Fri-Sun: 7:00am-10:00pm</p>
+        <img src="/img/cards.png" alt="">
+          </div>
+    <div class="col-md-4 footer-social animated fadeInDown text-center" >
+   <p class="footer_h">Our Location</p>
+   <img src="/img/image.png" alt="">
+   <p>19th Paradise Street Sitia <br>
+      128 Meserole Avenue</p>
+      <div>
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-youtube"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+      </div>
+      </div>
+  </div>
+</footer>
+</div>
+</html>
+</body>
+</html>
